@@ -1,0 +1,103 @@
+body{
+    font-family: monospace;
+    font-size: 15px;
+    text-align:center;
+    background-color:white;
+}
+
+h1,h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: left;
+    font-size: 80px;
+    padding-left: 110px;
+    color:white;
+}
+
+.skills-list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-top: 130px;
+    letter-spacing: 1px;
+    line-height: 130%;
+    font-weight: lighter;
+}
+
+img {
+    max-width: 50%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+nav ul {
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    position: fixed;
+    background-color:#A569BD;
+    z-index: 1;
+    width: 100%;
+}
+
+header {
+    top: 110px;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 90px;
+    background-color: #C39BD3;
+}
+
+footer{
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.button {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: white;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+.intro-img {
+    box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
+    margin-top: 40px;
+}
+
+.purple {
+    background-color: #C39BD3;
+}
+
+nav li a{
+    text-decoration: none black;
+}
